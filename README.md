@@ -10,7 +10,7 @@ I'm an aspiring Data Analyst with a growing skill set in SQL, Excel, Tableau, an
 
 ## 🛠️ Tools I Use
 - **Databases:** PostgreSQL, DBeaver
-- **Data Analysis:** Excel (including pivot tables and formulas)
+- **Spreadsheets:** Excel (including pivot tables and formulas)
 - **Visualization:** Tableau Public, Power BI
 - **Programming:** Python (beginner level)
 
