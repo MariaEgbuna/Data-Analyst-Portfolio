@@ -1,7 +1,4 @@
-# Hi there, I'm Maria Egbuna! 👋
-
-## 🚀 About Me
-I'm an aspiring Data Analyst with a growing skill set in SQL, Excel, Tableau, and Python (in progress). I enjoy turning raw data into clear, insightful visuals and reports that tell a story.
+# Hi there, I'm Maria! 👋
 
 ## 🔍 What I’m Working On
 - Building a portfolio of real-world data projects
@@ -9,14 +6,15 @@ I'm an aspiring Data Analyst with a growing skill set in SQL, Excel, Tableau, an
 - Exploring public datasets to uncover trends and patterns
 
 ## 🛠️ Tools I Use
-- **Databases:** PostgreSQL, DBeaver
-- **Spreadsheets:** Excel (including pivot tables and formulas)
-- **Visualization:** Tableau Public, Power BI
+- **Databases:** PostgreSQL, MYSQL
+- **Spreadsheets:** Excel, Google Sheets
+- **Visualization:** Power BI
 - **Programming:** Python (beginner level)
 
 ## 🌐 Let's Connect
 - [Twitter](https://x.com/AnalystMaria)
+- [Medium](https://medium.com/@ijeomahmaria)
 
 ---
 
-Thanks for visiting my profile! Feel free to explore my repositories and projects. Contributions, suggestions, and collaborations are always welcome! 😊
+Thanks for visiting my profile! Feel free to explore the projects on my portfolio. Contributions, suggestions, and collaborations are always welcome!
