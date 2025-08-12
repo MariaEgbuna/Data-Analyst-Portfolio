@@ -58,14 +58,16 @@ ORDER BY sales_year;
 ``` SQL
 SELECT
   ca.region,
+  SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2014 THEN sales ELSE 0 END) AS sales_2014,
+  SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2015 THEN sales ELSE 0 END) AS sales_2015,
+  SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2016 THEN sales ELSE 0 END) AS sales_2016,
   SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2017 THEN sales ELSE 0 END) AS sales_2017,
   SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2018 THEN sales ELSE 0 END) AS sales_2018,
   SUM(CASE WHEN EXTRACT(YEAR FROM order_date) = 2019 THEN sales ELSE 0 END) AS sales_2019
 FROM  orders AS o
 JOIN customer_addresses AS ca
 ON o.customer_id = ca.customer_id
-GROUP BY region
-ORDER BY sales_2017 DESC;
+GROUP BY region;
 ```
 ![Regional Sales Analysis](Images/Region.png)
 
