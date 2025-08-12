@@ -95,14 +95,20 @@ LIMIT 10;
 ![Top 20 Customers and their sales data](Images/Customers.png)
 
 * **Significant Customer Churn:** Several key customers who had high sales in 2017, such as Sean Miller, Tamara Chand,
-* and  Adrian Barton, had little to no sales in the final years of the dataset. This indicates a significant loss of business from the most important clients.
+and  Adrian Barton, had little to no sales in the final years of the dataset. This indicates a significant loss of business from the most important clients.
 * **Widespread Decline:** The trend is widespread, affecting most of the top 10 customers. The combined sales from these customers, which were substantial in the years prior, dropped precipitously, mirroring the overall company-wide trend.
 
 ---
 
 ### PROFITABILITY ANALYSIS
 
-A review of core financial indicators highlighted a significant discrepancy. Although the company maintains a solid Gross Profit Margin, an investigation into discounts showed that high-volume discounting is severely impacting the final Net Profit After Discount. 
+### KEY METRICS
+* **Total Profit** - $286,397.79
+* **Gross Profit Margin** - 12.46%
+* **Avg Discount Rate** - 14.04%
+* **Total Net Profit After Discount** - $(-36,184.45)
+
+Discrepancies in core financial indicators reveal that while the company's gross profit margin is healthy, extensive high-volume discounting is negatively impacting the final net profit after discounts.
 ```SQL
 SELECT 
 	TO_CHAR (o.order_date, 'YYYY') AS years,
