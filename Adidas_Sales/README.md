@@ -1,4 +1,4 @@
-# Adidas US Sales
+# Adidas US Sales (2020-2021)
 
 ## Dataset Overview
 This dataset contains detailed sales information for Adidas products within the United States. It provides a comprehensive view of various aspects of sales operations, including:
