@@ -1,7 +1,7 @@
 # Pizza Sales Analysis
 
 ## Project Overview
-This project involves an in-depth analysis of a pizza sales dataset to uncover key trends, customer preferences, and operational insights. By examining historical sales data, we identify peak periods, popular products, and revenue drivers, providing actionable intelligence for business optimization.
+This project involves an in-depth analysis of a pizza sales dataset to uncover key trends, customer preferences, and operational insights in the year 2015. By examining historical sales data, we identify peak periods, popular products, and revenue drivers, providing actionable intelligence for business optimization.
 
 ## Dataset
 The analysis is based on the `pizza_sales.csv` dataset, which contains detailed records of individual pizza orders. Each row represents a pizza item sold within an order and includes the following columns:
